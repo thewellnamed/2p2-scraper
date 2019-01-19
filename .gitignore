@@ -1,0 +1,30 @@
+# general
+*~
+*.log
+tmp
+dump
+
+# Eclipse
+.settings
+.cache
+.project
+.classpath
+.scala_dependencies
+bin
+
+# SBT
+dist
+project/boot
+project/target
+project/plugins/target
+target
+.target
+
+# Play
+.cache-main
+logs
+RUNNING_PID
+
+#Mac
+.DS_Store
+

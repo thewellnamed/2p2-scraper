@@ -1,0 +1,8 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Api
+GET     /api/load					controllers.Api.fetch(key: String, firstPage: Int ?= 1, lastPage: Int ?= 1, updating: Int ?= 0)
+GET		/api/fix					controllers.Api.update(key: String)
+GET     /api/stats					controllers.Api.updateStats(key: String, forumId: Int ?= 219)
